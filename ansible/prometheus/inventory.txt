@@ -1,0 +1,8 @@
+[prometheus]
+ec2-3-92-52-246.compute-1.amazonaws.com
+
+#http://ec2-3-92-52-246.compute-1.amazonaws.com:9090
+
+
+
+# aws ec2 describe-instances --query 'Reservations[*].Instances[*].PublicIpAddress' --output text >> inventory
